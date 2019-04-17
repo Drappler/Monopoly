@@ -1,0 +1,694 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btn",
+				"btn-outline-success"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"na",
+				"nav-link"
+			],
+			[
+				"login",
+				"login-dropdown-btn"
+			],
+			[
+				"col",
+				"col-md-8"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"navbar",
+				"navbar-inverse"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"newN",
+				"newNoteModel"
+			],
+			[
+				"prev",
+				"previousNoteModel"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"St",
+				"StickyNotes"
+			],
+			[
+				"_not",
+				"_noteContainer"
+			],
+			[
+				"colorSet",
+				"colorSets"
+			],
+			[
+				"tmp",
+				"tmpID"
+			],
+			[
+				"temp",
+				"tempNoteCollection"
+			],
+			[
+				"relP",
+				"RelPosT"
+			],
+			[
+				"_",
+				"_noteModel"
+			],
+			[
+				"wa",
+				"wrapper"
+			],
+			[
+				"_note",
+				"_noteModel"
+			],
+			[
+				"id",
+				"idSpecifier"
+			],
+			[
+				"tempN",
+				"tempNoteDataObject"
+			],
+			[
+				"Dat",
+				"Datum"
+			],
+			[
+				"noteD",
+				"noteDataObject"
+			],
+			[
+				"noteDa",
+				"noteDataObject"
+			],
+			[
+				"pro",
+				"projectID"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"noteData",
+				"noteDataObject"
+			],
+			[
+				"rel",
+				"RelPosL"
+			],
+			[
+				"note",
+				"noteID"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"su",
+				"substring"
+			],
+			[
+				"Colo",
+				"ColorSet"
+			],
+			[
+				"newNo",
+				"newNoteId"
+			],
+			[
+				"_noteD",
+				"_noteDataHolder"
+			],
+			[
+				"newNot",
+				"newNoteContainer"
+			],
+			[
+				"btn-note",
+				"btn-note-opt"
+			],
+			[
+				"tm",
+				"tmpID"
+			],
+			[
+				"enabe",
+				"enableNoteFeatures"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"myS",
+				"myStorageInit"
+			],
+			[
+				"my",
+				"myArray"
+			],
+			[
+				"a",
+				"attr"
+			],
+			[
+				"sear",
+				"SearchReturnArray"
+			],
+			[
+				"enab",
+				"enableSearch"
+			],
+			[
+				"en",
+				"enableDebouncer"
+			],
+			[
+				"ena",
+				"enableMyStorageInit"
+			],
+			[
+				"enableS",
+				"enableSearch"
+			],
+			[
+				"mySto",
+				"myStorageInit"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"el",
+				"elements"
+			],
+			[
+				"new",
+				"newNoteId"
+			],
+			[
+				"Pr",
+				"ProjectID"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"aja",
+				"ajaxPrefab"
+			],
+			[
+				"Err",
+				"ErrorMsg"
+			],
+			[
+				"title",
+				"titleTxt"
+			],
+			[
+				"thisT",
+				"thisTitle"
+			],
+			[
+				"sho",
+				"shortTitle"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"sh",
+				"shortTitle"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"Ini",
+				"Initializing"
+			],
+			[
+				"Xm",
+				"XMnamespace"
+			],
+			[
+				"JS",
+				"JSON"
+			],
+			[
+				"E",
+				"ErrorMsg"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"_no",
+				"_noteNum"
+			],
+			[
+				"top",
+				"topPercentage"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"get",
+				"getJSON"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"data",
+				"data-toggle"
+			],
+			[
+				"ans",
+				"answer-btn"
+			],
+			[
+				"color-1",
+				"color-1-txt"
+			],
+			[
+				"not",
+				"note-container-small"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"hid",
+				"hide"
+			],
+			[
+				"btn-",
+				"btn-note-min"
+			],
+			[
+				"_n",
+				"_noteNum"
+			],
+			[
+				"hide",
+				"hideShowNote"
+			],
+			[
+				"btn-note-",
+				"btn-note-min"
+			],
+			[
+				"left",
+				"leftPercentage"
+			],
+			[
+				"save",
+				"savedNotes"
+			],
+			[
+				"sav",
+				"savedNotes"
+			],
+			[
+				"this",
+				"thisNoteContainer"
+			],
+			[
+				"comm",
+				"commentTxt"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"titl",
+				"titleTxt"
+			],
+			[
+				"thisC",
+				"thisCommentTextA"
+			],
+			[
+				"thisCom",
+				"thisCommentP"
+			],
+			[
+				"thisCo",
+				"thisCommentP"
+			],
+			[
+				"thisComm",
+				"thisCommentTextA"
+			],
+			[
+				"comment",
+				"comment-p"
+			],
+			[
+				"com",
+				"comment-p"
+			],
+			[
+				"stick",
+				"stickyNotesBtnClick"
+			],
+			[
+				"Not",
+				"noteCount"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"btn-not",
+				"btn-note-del"
+			],
+			[
+				"thi",
+				"thisNoteContainer"
+			],
+			[
+				"Stick",
+				"StickyNotesPrototype"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 103,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Monopoly"
+	],
+	"file_history":
+	[
+		"/C/Users/DerGa/.ssh/id_rsa.pub",
+		"/C/Users/DerGa/AppData/Roaming/Mozilla/Firefox/Profiles/kfbbcr48.default/extensions.json",
+		"/C/Users/DerGa/Desktop/Anderes/stuff/Tor Browser/Browser/TorBrowser/Data/Browser/profile.default/extensions.json",
+		"/C/Users/DerGa/Downloads/Download",
+		"/C/Users/DerGa/Desktop/Anderes/Notes interview.txt",
+		"/C/Users/DerGa/Downloads/factorio-settings-1538341900.json",
+		"/C/Users/DerGa/AppData/Local/Microsoft/Windows/INetCache/IE/J7MZWFKA/profiles_backup[1].bin",
+		"/C/Program Files/Bitdefender/Bitdefender Security/settings/bootstrapdata.json",
+		"/C/Program Files (x86)/Google/Chrome/Application/64.0.3282.167/WidevineCdm/manifest.json",
+		"/C/Program Files (x86)/Google/Chrome/Application/64.0.3282.167/default_apps/external_extensions.json",
+		"/C/Program Files (x86)/Google/Chrome/Application/64.0.3282.167/Extensions/external_extensions.json",
+		"/E/Valve/Steam/steamapps/common/Hearts of Iron IV/hoi4.exe",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.480/bootstrap.js",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.411/popper.js",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.343/popper-utils.js",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.348/popper-utils.min.js",
+		"/E/Xampp/htdocs/IGD16/src/scripts/main.js",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.543/popper.js",
+		"/C/Users/DerGa/AppData/Local/Temp/Rar$DIa0.574/index.js",
+		"/E/Xampp/htdocs/IGD16/src/css/vendor/bootstrap.min.css",
+		"/E/Xampp/htdocs/SimpleRep/src/css/main.css",
+		"/E/Xampp/htdocs/SimpleRep/src/js/note.collection.js",
+		"/E/Xampp/htdocs/SimpleRep/src/js/note.model.js",
+		"/E/Xampp/htdocs/SimpleRep/src/js/utils.js",
+		"/C/xampp/htdocs/StickyNotesRepos/src/js/backbone.min.js",
+		"/C/xampp/htdocs/StickyNotesRepos/src/js/underscore-min.js",
+		"/C/xampp/htdocs/StickyNotesRepos/src/index.html",
+		"/C/xampp/htdocs/StickyNotesRepos/src/db/save.php",
+		"/C/xampp/htdocs/StickyNotesRepos/src/db/test2.json",
+		"/C/xampp/htdocs/db/test.json",
+		"/C/xampp/htdocs/db/test2.json",
+		"/C/xampp/htdocs/js/utils.js",
+		"/C/xampp/htdocs/js/test.js",
+		"/C/xampp/htdocs/db.php",
+		"/C/Users/tko/Desktop/Ablage/XIMAnew/index.html",
+		"/C/xampp/htdocs/Test/js/test.js",
+		"/C/xampp/htdocs/js/main.js",
+		"/C/xampp/htdocs/index.html",
+		"/C/xampp/htdocs/Test/css/main.css",
+		"/C/xampp/htdocs/css/main.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
