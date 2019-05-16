@@ -1,20 +1,22 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://assets/textures/Apartment.svg" type="Texture" id=1]
+[ext_resource path="res://assets/textures/Hotel.svg" type="Texture" id=2]
+[ext_resource path="res://assets/textures/logo-tilted.png" type="Texture" id=3]
 
-[sub_resource type="PlaneShape" id=8]
+[sub_resource type="PlaneShape" id=1]
 plane = Plane( 0, 0, 1, 0 )
 
-[sub_resource type="ViewportTexture" id=6]
+[sub_resource type="ViewportTexture" id=2]
 viewport_path = NodePath("ViewportFront")
 
-[sub_resource type="ViewportTexture" id=7]
+[sub_resource type="ViewportTexture" id=3]
 viewport_path = NodePath("ViewportBack")
 
-[sub_resource type="StyleBoxFlat" id=1]
+[sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.819608, 0.819608, 0.819608, 1 )
 
-[sub_resource type="StyleBoxFlat" id=2]
+[sub_resource type="StyleBoxFlat" id=5]
 bg_color = Color( 1, 1, 1, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -22,16 +24,16 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color( 0, 0, 0, 1 )
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id=6]
 border_width_left = 1
 border_width_top = 1
 border_width_right = 1
 border_width_bottom = 1
 border_color = Color( 0, 0, 0, 1 )
 
-[sub_resource type="StyleBoxLine" id=4]
+[sub_resource type="StyleBoxLine" id=7]
 
-[sub_resource type="StyleBoxFlat" id=5]
+[sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.227451, 0.227451, 0.227451, 1 )
 
 [node name="Card" type="Node"]
@@ -40,16 +42,16 @@ bg_color = Color( 0.227451, 0.227451, 0.227451, 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Model"]
 transform = Transform( 0.14, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0 )
-shape = SubResource( 8 )
+shape = SubResource( 1 )
 
 [node name="FrontSide" type="Sprite3D" parent="Model"]
 double_sided = false
-texture = SubResource( 6 )
+texture = SubResource( 2 )
 
 [node name="BackSide" type="Sprite3D" parent="Model"]
 transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 0, 0, 0 )
 double_sided = false
-texture = SubResource( 7 )
+texture = SubResource( 3 )
 
 [node name="ViewportFront" type="Viewport" parent="."]
 editor/display_folded = true
@@ -57,10 +59,9 @@ size = Vector2( 280, 400 )
 render_target_v_flip = true
 
 [node name="BackGround" type="Panel" parent="ViewportFront"]
-editor/display_folded = true
 margin_right = 280.0
 margin_bottom = 400.0
-custom_styles/panel = SubResource( 1 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="MarginContainer" type="MarginContainer" parent="ViewportFront/BackGround"]
 anchor_right = 1.0
@@ -75,7 +76,7 @@ margin_left = 10.0
 margin_top = 10.0
 margin_right = 270.0
 margin_bottom = 390.0
-custom_styles/panel = SubResource( 2 )
+custom_styles/panel = SubResource( 5 )
 
 [node name="MarginContainer" type="MarginContainer" parent="ViewportFront/BackGround/MarginContainer/Outline"]
 anchor_right = 1.0
@@ -87,7 +88,6 @@ custom_constants/margin_left = 10
 custom_constants/margin_bottom = 10
 
 [node name="VBoxContainer" type="VBoxContainer" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer"]
-editor/display_folded = true
 margin_left = 10.0
 margin_top = 10.0
 margin_right = 250.0
@@ -104,7 +104,7 @@ margin_right = 240.0
 margin_bottom = 50.0
 rect_min_size = Vector2( 0, 50 )
 size_flags_horizontal = 3
-custom_styles/panel = SubResource( 3 )
+custom_styles/panel = SubResource( 6 )
 
 [node name="CenterContainer" type="CenterContainer" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer/TitleContainer/TitlePanel"]
 anchor_right = 1.0
@@ -300,7 +300,6 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "$6y"
 
 [node name="Hotel" type="HBoxContainer" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer/RentInfo"]
-editor/display_folded = true
 margin_top = 164.0
 margin_right = 240.0
 margin_bottom = 179.0
@@ -321,7 +320,7 @@ size_flags_horizontal = 3
 [node name="Icon" type="TextureRect" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer/RentInfo/Hotel/Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 expand = true
 stretch_mode = 5
 
@@ -336,7 +335,7 @@ text = "$8y"
 margin_top = 286.0
 margin_right = 240.0
 margin_bottom = 290.0
-custom_styles/separator = SubResource( 4 )
+custom_styles/separator = SubResource( 7 )
 
 [node name="CostInfo" type="VBoxContainer" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer"]
 margin_top = 310.0
@@ -355,6 +354,7 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Cost of 1"
 
 [node name="Control" type="Control" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer/CostInfo/Apartment"]
+editor/display_folded = true
 margin_left = 60.0
 margin_right = 167.0
 margin_bottom = 15.0
@@ -376,7 +376,6 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "$500-2500"
 
 [node name="Hotel" type="HBoxContainer" parent="ViewportFront/BackGround/MarginContainer/Outline/MarginContainer/VBoxContainer/CostInfo"]
-editor/display_folded = true
 margin_top = 19.0
 margin_right = 240.0
 margin_bottom = 50.0
@@ -400,7 +399,7 @@ anchor_bottom = 0.5
 margin_top = -7.5
 margin_right = 15.0
 margin_bottom = 7.5
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 expand = true
 stretch_mode = 6
 
@@ -421,7 +420,7 @@ render_target_v_flip = true
 [node name="Background" type="Panel" parent="ViewportBack"]
 margin_right = 280.0
 margin_bottom = 400.0
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 8 )
 
 [node name="MarginContainer" type="MarginContainer" parent="ViewportBack/Background"]
 anchor_right = 1.0
@@ -436,7 +435,7 @@ margin_left = 30.0
 margin_top = 30.0
 margin_right = 250.0
 margin_bottom = 370.0
-texture = ExtResource( 1 )
+texture = ExtResource( 3 )
 expand = true
 stretch_mode = 6
 
