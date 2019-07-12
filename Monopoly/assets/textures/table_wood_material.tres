@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/textures/91618.jpg" type="Texture" id=1]
 
 [resource]
-albedo_color = Color( 0.615686, 0.4, 0.027451, 1 )
+albedo_color = Color( 0.427451, 0.243137, 0.0470588, 1 )
 albedo_texture = ExtResource( 1 )
 normal_enabled = true
 normal_scale = 1.0
