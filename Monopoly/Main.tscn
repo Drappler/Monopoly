@@ -1,4 +1,37 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/textures/table_wood_material.tres" type="Material" id=1]
 
 [node name="Main" type="Spatial"]
+
+[node name="Table" type="CSGCombiner" parent="."]
+
+[node name="Top" type="CSGBox" parent="Table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.975451, 0 )
+height = 0.1
+material = ExtResource( 1 )
+
+[node name="LegLeft1" type="CSGBox" parent="Table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7, 0, 0.7 )
+width = 0.25
+depth = 0.25
+material = ExtResource( 1 )
+
+[node name="LegLeft2" type="CSGBox" parent="Table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7, 0, -0.7 )
+width = 0.25
+depth = 0.25
+material = ExtResource( 1 )
+
+[node name="LegRight1" type="CSGBox" parent="Table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, 0, 0.7 )
+width = 0.25
+depth = 0.25
+material = ExtResource( 1 )
+
+[node name="LegRight2" type="CSGBox" parent="Table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, 0, -0.7 )
+width = 0.25
+depth = 0.25
+material = ExtResource( 1 )
 
